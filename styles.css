@@ -1,11 +1,13 @@
 /*  your css code here. If applicable */
-ul{
-	background-color: #D3D3D3;
-	padding : 10px;
-	list-style-type : none;
-}
-
-li{
-	display : inline;
-	margin-right : 1rem;
-}
+ nav {
+            background-color: #D3D3D3;
+            padding: 10px;
+        }
+ ul {
+            list-style: none;
+            
+        }
+li {
+            display: inline;
+            margin-right: 1rem;
+        }
