@@ -1,13 +1,30 @@
-/*  your css code here. If applicable */
- nav {
-            background-color: #D3D3D3;
-            padding: 10px;
-        }
- ul {
-            list-style: none;
-            
-        }
-li {
-            display: inline;
-            margin-right: 1rem;
-        }
+/* Style for the navigation bar */
+.container {
+    background-color: #D3D3D3;
+    padding: 10px;
+}
+
+/* Style for the list within the navigation bar */
+.container ul {
+    list-style: none; /* Remove bullets */
+    padding: 0;
+	 display:flex;
+}
+
+/* Style for list items */
+.container li{
+    display:flex;
+    margin-right: 1rem;
+}
+
+/* Style for links within list items */
+.container li a {
+	display:flex;
+    text-decoration: none; /* Remove underlines from links */
+    color: #000; /* Link text color */
+}
+
+/* Hover effect for links */
+.container li a:hover {
+    color: #333; /* Change link text color on hover */
+}
